@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body{
+  background-color: #2B2922;
+}
+
+.logo{
+  width: 80px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+.list{
+  display: flex;
+  margin-left: 500px;
+  margin-top: -20px;
+  
+}
+.list-item{
+  color: rgb(136, 131, 131);
+  margin-right: 50px;
+  list-style-type: none;
+}
+.list-item:hover{
+  color: #fff;
+  cursor: pointer;
+}
+/* ------------------------------ */
+
+
+.button-small{
+  margin-left: 1050px;
+ position: relative;
+ top: -25px;
+ height: 30px;
+ width: 100px;
+ color: #A08F36;
+ border-color: #A08F36;
+ background: transparent;
+ border-radius: 0.5em;
+}
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+
+.hero-heading{
+  color: #fff;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-right: 700px;
+  margin-left: 100px;
+}
+
+/* ------------------------------ */
+
+.hero-body{
+  color: #fff;
+  margin-left: 650px;
+  margin-top: -100px;
+  margin-right: 200px;
+}
+
+img[src="./assets/justice.jpg"]{
+  margin-top: 50px;
+  height: 290px;
+  width: 1200px;
+  margin-left: 15px;
+}
+
+.bottom{
+    
+    position: relative;
+    top: 10px;
+    
+}
+.button-large-prev{
+  border:solid #A08F36;
+  margin-top: 5px;
+  width: 80px;
+  height: 40px; 
+  margin-left: 1000px;
+  color: #A08F36;
+  width: 40px;
+  border-radius: 5em;
+  text-align: center;
+  font-size: 30px;
+ 
+  background-color: #39372D;
+ 
+}
+
+.button-large-prev:hover{
+  background-color: #A08F36;
+  color: #fff;
+  border-color: #fff;
+}
+.button-prev-bgc{
+  border:solid #39372D;
+  height: 75px;
+  width: 80px;
+  margin-top: -60px;
+  float: right;
+  margin-right: 175px;
+ 
+}
+
+.button-large-next:hover , .button-prev-bgc:hover{
+  background-color: #d3ca9b;
+  color: #fff;
+  border-color: #fff;
+}
+
+
+.button-large-next{
+  border:solid #A08F36;
+  margin-top: -40px;
+  width: 80px;
+  height: 40px; 
+  margin-left: 1075px;
+  color: #A08F36;
+  width: 40px;
+  border-radius: 5em;
+  text-align: center;
+  font-size: 30px;
+  background-color: #39372D;
+}
+
+.button-next-bgc{
+  border:solid #39372D;
+  height: 75px;
+  width: 80px;
+  margin-top: -60px;
+  float: right;
+  margin-right: -160px;
+}
+
+.button-large-next:hover , .button-next-bgc:hover{
+  background-color: #d3ca9b;
+  color: #fff;
+  border-color: #fff;
+}
